@@ -11,7 +11,7 @@ El código básico para que puedas comenzar ya está creado, al igual que las im
 ## Cómo comenzar
 
 - Clona el repositorio
-- En el directorio `ejercicio` tendrás los archivos `index.html` y `styles.css` que son los que 
+- En el directorio raíz tendrás los archivos `index.html` y `styles.css` que son los que 
 tendrás que modificar.
 - Utiliza selectores `class` para dar estilo a tus objetos.
 - Añade los estilos en el fichero `style.css`
