@@ -1,0 +1,147 @@
+.cabecera{
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    padding:15px;
+    font-size:13px;
+  }
+
+.cabecera .izquierda{
+  float:left;
+}
+
+.cabecera .derecha{
+  float:right;
+}
+
+.cabecera a {
+  display:inline;
+  margin:10px;
+  opacity: 0.75;
+  text-decoration: none;
+  vertical-align: middle;
+  color: #000;
+}
+
+.cabecera .apps{
+    display: inline-block;
+    outline: none;
+    vertical-align: middle;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    height: 20px;
+    width: 20px;
+    color: #000;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.cabecera .boton_secion{
+   height: 25px;
+   border: 1px solid #4285f4;
+   background: #4285f4;
+   font-weight: bold;
+   color: #ffffff;
+   cursor:pointer;
+}
+
+.cuerpo{
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 100px;
+}
+.cuerpo .logo{
+    height: 92px;
+    width: 272px;
+}
+
+.cuerpo .text_field_busqueda{
+    border-radius: 24px;
+    display: block;
+    margin: 25px auto;
+    border-color: rgba(223, 225, 229, 0);
+    box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
+    padding: 12px 30px;
+    width: 500px;
+    position: relative;
+}
+
+.cuerpo .lupa{
+    position: absolute;
+    left: 17px;
+    top: 15px;
+    height: 15px;
+}
+
+.cuerpo .text_field_busqueda input{
+    border: none;
+    width: 100%;
+    font-size: 16px;
+    outline: none;
+}
+
+.cuerpo .microfono{
+    position: absolute;
+    right: 17px;
+    top: 10px;
+    height: 28px;
+}
+
+.cuerpo .botones button{
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: #5F6368;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+.cuerpo .covid {
+    margin-top: 30px;
+}
+.cuerpo .idiomas {
+    margin-top: 40px;
+}
+
+.cuerpo .covid a, .cuerpo .idiomas a{
+    color: #1a0dab;
+    margin-left:10px;
+    font-size:13px;
+}
+
+.pies {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    background: #f2f2f2;
+    line-height: 40px;
+    padding-right: 30px;
+    font-size: 14px;
+    border-top: 1px solid #e4e4e4;
+}
+
+.pies .linea .izquierda{
+  float:left;
+}
+.pies .linea .derecha{
+  float:right;
+}
+.pies a, .pais {
+  color: #5f6368;
+  display:inline;
+  margin:10px;
+  text-decoration: none;
+  vertical-align: middle;
+}
